@@ -12,7 +12,21 @@ public class Jobsheet11 {
     
     System.out.println("x adalah ksosong : " + x.isEmpty());
     
+    String y= "";
+    System.out.println("isi variabel y : "+ y);
     
+    
+    
+   System.out.println("isi x sama dengan y : " + x.equals(y));
+   
+   String z = "Operasi";
+   System.out.println("isi variabel z : "+ z);
+   System.out.println("isi x sama dengan z (Case Sensistive) : " + x.equals(z));
+   
+   String r = "operasi";
+   System.out.println("isi variabel r : "+ z);
+   System.out.println("isi x sama dengan r (Case Sensitive) : " + x.equals(r));
+   System.out.println("isi x sama dengan r (Not Case Sensitive) : " + x.equalsIgnoreCase(r));
         
     }
 }
